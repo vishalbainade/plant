@@ -69,7 +69,7 @@ class _HomeScreenState extends State<HomeScreen> {
     
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Plant App'),
+        title: const Text('Farmy'),
         backgroundColor: Colors.green,
         actions: [
           IconButton(
@@ -94,7 +94,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
               const SizedBox(height: 24),
               const Text(
-                'Welcome to Plant App!',
+                'Welcome to Farmy!',
                 style: TextStyle(
                   fontSize: 24,
                   fontWeight: FontWeight.bold,

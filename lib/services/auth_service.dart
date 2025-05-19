@@ -17,8 +17,9 @@ class AuthService extends ChangeNotifier {
   String? get email => _email;
 
   // Base URL for API calls
-  final String baseUrl = 'http://192.168.60.15:5000/api/auth'; // Replace with your PC's IP
+  //final String baseUrl = 'http://192.168.60.15:5000/api/auth'; // Replace with your PC's IP
   // Use 'http://localhost:3000/api/auth' for web or iOS simulator
+  final String baseUrl ='https://plantapk.onrender.com/api/auth';
 
   // Initialize auth state from shared preferences
   Future<void> initAuthState() async {

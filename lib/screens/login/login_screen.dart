@@ -105,7 +105,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 ),
                 const SizedBox(height: 24),
                 const Text(
-                  'Plant App',
+                  'Farmy',
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     fontSize: 28,
